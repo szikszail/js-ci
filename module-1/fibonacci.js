@@ -19,7 +19,7 @@ function fibonacci(n) {
      */
     // PLACE YOUR CODE BETWEEN THIS...
 
-
+    nThFibonacci = 42;
     // ...AND THIS COMMENT LINE!
     return nThFibonacci;
 }

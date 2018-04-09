@@ -5,7 +5,7 @@ const Browser = require('./mock/Browser');
 const Layout = require('../Layout');
 const expect = require('chai').expect;
 
-describe('Layout Class', () => {
+describe.skip('Layout Class', () => {
     beforeEach(() => {
         global.element = ElementFinder.element;
         global.browser = new Browser();

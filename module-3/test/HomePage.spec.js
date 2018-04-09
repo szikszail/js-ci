@@ -1,5 +1,5 @@
 'use strict';
 
-describe('HomePage Class', () => {
+describe.skip('HomePage Class', () => {
     // TODO: write tests
 });

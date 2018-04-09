@@ -3,6 +3,7 @@ Feature: EPAM site
     I want to write test for EPAM career site
     So that I can practice Cucumber
 
+    @wip
     Scenario: Search for a job
     Given EPAM Career site is opened
     Then EPAM Career site should be opened

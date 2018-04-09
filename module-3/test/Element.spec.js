@@ -4,7 +4,7 @@ const ElementFinder = require('./mock/ElementFinder');
 const Element = require('../Element');
 const expect = require('chai').expect;
 
-describe('Element Class', () => {
+describe.skip('Element Class', () => {
     beforeEach(() => {
         global.element = ElementFinder.element;
     });

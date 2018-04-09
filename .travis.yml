@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- 6
+- 8
+git:
+  depth: 3
+script:
+- npm run test:module-1
+- npm run test:module-2
+- npm run test:module-3
+- npm run test:module-4
+- npm run test:module-5
+notifications:
+  email: false

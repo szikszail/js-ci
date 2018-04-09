@@ -5,7 +5,7 @@ const expect = require('chai').expect;
 const sinon = require('sinon');
 const testData = require('./arrayEqual.json');
 
-describe('Module 4 - arrayEqual', () => {
+describe.skip('Module 4 - arrayEqual', () => {
     beforeEach(() => {
         sinon.spy(console, "warn");
     });
